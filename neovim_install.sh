@@ -22,3 +22,9 @@ yarn build
 # Install plugins using vim-plug
 cd ~/.config/nvim
 nvim +PlugInstall +qall
+
+# Install Auto-Completion
+nvim +'CocInstall coc-python | qall'
+nvim +'CocInstall coc-go | qall'
+nvim +'CocInstall coc-xml | qall'
+nvim +'CocInstall coc-yaml | qall'
