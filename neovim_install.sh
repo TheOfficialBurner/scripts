@@ -28,3 +28,6 @@ nvim +'CocInstall coc-python | qall'
 nvim +'CocInstall coc-go | qall'
 nvim +'CocInstall coc-xml | qall'
 nvim +'CocInstall coc-yaml | qall'
+
+# preparing the script 
+# wget https://raw.githubusercontent.com/TheOfficialBurner/config-files/main/neovim_install.sh && chmod +x neovim_install.sh && ./neovim_install.sh
