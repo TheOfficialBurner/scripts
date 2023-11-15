@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# starte im root-verzeichnis
+cd /
+
 # Erstellen der Script-Verzeichnisse
 mkdir -p /opt/update/archive
 
@@ -24,7 +27,7 @@ cp -v /opt/iventoy/data/iventoy.lic /opt/$latest_iventoy_pro_version/data/
 mv -v /opt/iventoy/iso/* /opt/$latest_iventoy_pro_version/iso/
 
 # iVentoy symlink anpassen
-rm /opt/iventoy && ln -s /opt/iventoy /opt/$latest_iventoy_pro_version
+rm /opt/iventoy && ln -s /opt/$latest_iventoy_pro_version /opt/iventoy
 
 # iVentoy starten
 cd /opt/iventoy && ./iventoy.sh -R start
