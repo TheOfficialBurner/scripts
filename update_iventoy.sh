@@ -30,8 +30,10 @@ mv -v /opt/iventoy/iso/* /opt/$latest_iventoy_pro_version/iso/
 rm /opt/iventoy && ln -s /opt/$latest_iventoy_pro_version /opt/iventoy
 
 # iVentoy starten
-cd /opt/iventoy && ./iventoy.sh -R start
+# cd /opt/iventoy && ./iventoy.sh -R start
 
 # aktuelle Version ins archiv verschieben
 mv -v /opt/update/$latest_iventoy_pro_archive /opt/update/archive/
 
+# Neustart des Geräts
+reboot
