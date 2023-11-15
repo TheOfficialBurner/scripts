@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Download der Pro-Version im privaten Repo des Programmierers
+# https://github.com/ventoy/ivtoy/releases
+
 # Sript herunterladen und Ausfuehren
 # wget https://raw.githubusercontent.com/TheOfficialBurner/config-files/main/update_iventoy.sh && chmod +x update_iventoy.sh && ./update_iventoy.sh
 
