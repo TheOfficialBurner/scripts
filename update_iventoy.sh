@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Sript herunterladen und Ausfuehren
+# wget https://raw.githubusercontent.com/TheOfficialBurner/config-files/main/update_iventoy.sh && chmod +x update_iventoy.sh && ./update_iventoy.sh
+
 # starte im root-verzeichnis
 cd /
 
