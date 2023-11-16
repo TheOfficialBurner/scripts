@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 # update code-server
 systemctl stop code-server.service
