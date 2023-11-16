@@ -9,4 +9,4 @@ systemctl start code-server.service
 rm code-server_update.deb
 
 # Download and run update-script
-wget https://raw.githubusercontent.com/TheOfficialBurner/config-files/main/update_code-server.sh && chmod +x update_code-server.sh && ./update_code-server.sh
+# wget https://raw.githubusercontent.com/TheOfficialBurner/config-files/main/update_code-server.sh && chmod +x update_code-server.sh && ./update_code-server.sh
