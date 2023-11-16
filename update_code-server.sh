@@ -3,7 +3,7 @@
 # update code-server
 systemctl stop code-server.service
 curl -Ls $(curl -s https://api.github.com/repos/coder/code-server/releases/latest | grep "browser_download_url.*.amd64.deb" | cut -d '"' -f 4) -O -J
-mv code-server* code-server_update.deb
+mv code-server_* code-server_update.deb
 apt install code-server_update.deb -y
 systemctl start code-server.service
 rm code-server_update.deb
