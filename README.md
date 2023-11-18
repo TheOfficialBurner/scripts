@@ -1,2 +1,1 @@
-# config-files
-Test online config storage
+# my scripts
